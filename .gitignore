@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# Dependency directories
+node_modules/
+jspm_packages/
+/src/node_modules/@sapper/
+
+# Ignore cypress screenshots
+/cypress/screenshots/
+
+# Svelte Dev and Production Directory
+/__sapper__/
+
+# Electron Distribution
+dist
+
+# Project Build Automation Directory
+private
+
+# Desktop Services Store on macOS
+.DS_Store
